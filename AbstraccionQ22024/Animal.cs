@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace AbstraccionQ22024
 {
+    //Cuando la propiedad o atributo tiene este signo ? le estamos diciendo que la propiedad acepta valores nulos
     public abstract class Animal
     {
         /// <summary>
         /// Nombre del Animal
         /// </summary>
-        public string Nombre { get; set; }
+        public string? Nombre { get; set; }
 
         /// <summary>
         /// Color del Animal
